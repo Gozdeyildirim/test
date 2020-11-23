@@ -8,16 +8,21 @@ namespace TestProjectGozde
         {
             //kodları hep buraya yazın static void main içine hata verir yoksa
 
-            string metin;
-            Console.Write("Metni Girin  : ");
-            metin = Console.ReadLine();
-            string[] kelimeler = metin.Split(' ');
-            Console.WriteLine("Kelime Sayısı :" + kelimeler.Length);
-            foreach (string kelime in kelimeler)
+            string metin = "Merhaba Dünya, bu örnek bir program";
+            string sesli = "aeıioöuü";
+
+            int sayac = 0;
+            for (int i = 0; i < metin.Length; i++)
             {
-                Console.WriteLine(kelime);
+                //karakter katarkter kontrol ediyoruz.
+                if (sesli.Contains(metin[i]))
+                {
+                    sayac++;
+                }
             }
-            Console.ReadKey();
+            Console.WriteLine(metin);
+            Console.WriteLine("Yukarıdaki ifadede toplam {0} \ntane sesli harf vardır.", sayac);
+            Console.ReadLine();
 
         }
     }
