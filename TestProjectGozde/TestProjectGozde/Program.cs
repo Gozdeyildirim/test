@@ -9,22 +9,35 @@ namespace TestProjectGozde
             //kodları hep buraya yazın static void main içine hata verir yoksa
 
 
-            string metin = "Merhaba Dünya! +123";
-            Console.WriteLine(metin + "\n");
-            string liste = "ABCÇDEFGĞHİIJKLMNOÖPRSŞTUÜVYZ"
-                           + "abcçdefgğhiıjklmnoöprsştuüvyz";
-
-            int sayac = 0;
-            for (int i = 0; i < metin.Length; i++)
+            double boy, kilo, indeks = 0;
+            Console.Write("Boyunuzu m cinsinden Giriniz (Ör:1,65)  : ");
+            boy = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Kilonuzu Giriniz : ");
+            kilo = Convert.ToDouble(Console.ReadLine());
+            indeks = kilo / (boy * boy);
+            Console.WriteLine("================================================");
+            Console.WriteLine("Vücut Kitle İndexiniz : {0}", indeks);
+            if (indeks < 18)
             {
-                //karakter karakter kontrol ediyoruz.
-                if (liste.Contains(metin[i]))
-                {
-                    sayac++;
-                }
+                Console.WriteLine("Zayıf");
             }
-            Console.WriteLine("Yukarıdaki ifadede toplam {0} \ntane  harf vardır.", sayac);
-            Console.ReadLine();
+            else if (indeks >= 18 && indeks < 25)
+            {
+                Console.WriteLine("Normal");
+            }
+            else if (indeks >= 25 && indeks < 30)
+            {
+                Console.WriteLine("Kilolu");
+            }
+            else if (indeks >= 30 && indeks < 35)
+            {
+                Console.WriteLine("Obez");
+            }
+            else
+            {
+                Console.WriteLine("Ciddi Obez");
+            }
+            Console.ReadKey();
 
 
 
