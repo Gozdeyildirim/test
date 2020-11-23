@@ -8,21 +8,14 @@ namespace TestProjectGozde
         {
             //kodları hep buraya yazın static void main içine hata verir yoksa
 
-            string metin = "Merhaba Dünya, bu örnek bir program";
-            string sesli = "aeıioöuü";
 
-            int sayac = 0;
-            for (int i = 0; i < metin.Length; i++)
-            {
-                //karakter katarkter kontrol ediyoruz.
-                if (sesli.Contains(metin[i]))
-                {
-                    sayac++;
-                }
-            }
-            Console.WriteLine(metin);
-            Console.WriteLine("Yukarıdaki ifadede toplam {0} \ntane sesli harf vardır.", sayac);
+            string metin = "Merhaba Dünya! +123";
+            Console.WriteLine(metin + "\n");
+
+            Console.WriteLine("Yukarıdaki ifade toplam {0} karakter içerir.", metin.Length);
             Console.ReadLine();
+
+
 
         }
     }
