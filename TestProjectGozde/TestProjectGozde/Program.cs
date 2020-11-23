@@ -11,8 +11,19 @@ namespace TestProjectGozde
 
             string metin = "Merhaba Dünya! +123";
             Console.WriteLine(metin + "\n");
+            string liste = "ABCÇDEFGĞHİIJKLMNOÖPRSŞTUÜVYZ"
+                           + "abcçdefgğhiıjklmnoöprsştuüvyz";
 
-            Console.WriteLine("Yukarıdaki ifade toplam {0} karakter içerir.", metin.Length);
+            int sayac = 0;
+            for (int i = 0; i < metin.Length; i++)
+            {
+                //karakter karakter kontrol ediyoruz.
+                if (liste.Contains(metin[i]))
+                {
+                    sayac++;
+                }
+            }
+            Console.WriteLine("Yukarıdaki ifadede toplam {0} \ntane  harf vardır.", sayac);
             Console.ReadLine();
 
 
