@@ -9,35 +9,19 @@ namespace TestProjectGozde
             //kodları hep buraya yazın static void main içine hata verir yoksa
 
 
-            double boy, kilo, indeks = 0;
-            Console.Write("Boyunuzu m cinsinden Giriniz (Ör:1,65)  : ");
-            boy = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Kilonuzu Giriniz : ");
-            kilo = Convert.ToDouble(Console.ReadLine());
-            indeks = kilo / (boy * boy);
-            Console.WriteLine("================================================");
-            Console.WriteLine("Vücut Kitle İndexiniz : {0}", indeks);
-            if (indeks < 18)
+            int sayi;
+            Console.Write("Bir sayı giriniz: ");
+            sayi = Convert.ToInt16(Console.ReadLine());
+
+            if (sayi % 2 == 0) //sayinin 2 ile modunu hesaplıyoruz. mod 0 ise sayı çift olarak kabul edilir.
             {
-                Console.WriteLine("Zayıf");
+                Console.Write(sayi + " sayisi çift sayıdır.");
             }
-            else if (indeks >= 18 && indeks < 25)
+            else  //sayı sıfır değil de tek ise else kısmı çalışacaktır.
             {
-                Console.WriteLine("Normal");
+                Console.Write(sayi + " sayisi tek sayıdır.");
             }
-            else if (indeks >= 25 && indeks < 30)
-            {
-                Console.WriteLine("Kilolu");
-            }
-            else if (indeks >= 30 && indeks < 35)
-            {
-                Console.WriteLine("Obez");
-            }
-            else
-            {
-                Console.WriteLine("Ciddi Obez");
-            }
-            Console.ReadKey();
+            Console.ReadKey(); //www.yazilimkodlama.com
 
 
 
