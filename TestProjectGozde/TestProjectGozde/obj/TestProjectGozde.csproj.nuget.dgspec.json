@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AGOKOGLU\\source\\repos\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj": {}
+    "C:\\Users\\AGOKOGLU\\Desktop\\Project\\test\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AGOKOGLU\\source\\repos\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj": {
+    "C:\\Users\\AGOKOGLU\\Desktop\\Project\\test\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AGOKOGLU\\source\\repos\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj",
+        "projectUniqueName": "C:\\Users\\AGOKOGLU\\Desktop\\Project\\test\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj",
         "projectName": "TestProjectGozde",
-        "projectPath": "C:\\Users\\AGOKOGLU\\source\\repos\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj",
+        "projectPath": "C:\\Users\\AGOKOGLU\\Desktop\\Project\\test\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj",
         "packagesPath": "C:\\Users\\AGOKOGLU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AGOKOGLU\\source\\repos\\TestProjectGozde\\TestProjectGozde\\obj\\",
+        "outputPath": "C:\\Users\\AGOKOGLU\\Desktop\\Project\\test\\TestProjectGozde\\TestProjectGozde\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

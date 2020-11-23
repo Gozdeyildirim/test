@@ -1,0 +1,13 @@
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\bin\Debug\netcoreapp3.1\TestProjectGozde.exe
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\bin\Debug\netcoreapp3.1\TestProjectGozde.deps.json
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\bin\Debug\netcoreapp3.1\TestProjectGozde.runtimeconfig.json
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\bin\Debug\netcoreapp3.1\TestProjectGozde.runtimeconfig.dev.json
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\bin\Debug\netcoreapp3.1\TestProjectGozde.dll
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\bin\Debug\netcoreapp3.1\TestProjectGozde.pdb
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\obj\Debug\netcoreapp3.1\TestProjectGozde.csprojAssemblyReference.cache
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\obj\Debug\netcoreapp3.1\TestProjectGozde.AssemblyInfoInputs.cache
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\obj\Debug\netcoreapp3.1\TestProjectGozde.AssemblyInfo.cs
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\obj\Debug\netcoreapp3.1\TestProjectGozde.csproj.CoreCompileInputs.cache
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\obj\Debug\netcoreapp3.1\TestProjectGozde.dll
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\obj\Debug\netcoreapp3.1\TestProjectGozde.pdb
+C:\Users\AGOKOGLU\Desktop\Project\test\TestProjectGozde\TestProjectGozde\obj\Debug\netcoreapp3.1\TestProjectGozde.genruntimeconfig.cache
