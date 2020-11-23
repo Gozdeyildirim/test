@@ -6,31 +6,23 @@ namespace TestProjectGozde
     {
         static void Main(string[] args)
         {
-            int s1, s2, sonuc, cevap, dsayisi = 0, ysayisi = 0;
-            Random rnd = new Random();
+            //kodları hep buraya yazın static void main içine hata verir yoksa
 
-            for (int i = 1; i <= 10; i++)
+            int sayi1, sayi2, sonuc = 0;
+
+            Console.Write("1. Sayıyı girin:");
+            sayi1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("2. Sayıyı girin:");
+            sayi2 = Convert.ToInt32(Console.ReadLine());
+
+
+            for (int i = 0; i < sayi2; i++)
             {
-                s1 = rnd.Next(1, 10);
-                s2 = rnd.Next(1, 10);
-                sonuc = s1 * s2;
-                Console.Write(s1 + "x" + s2 + "= ");
-                cevap = Convert.ToInt32(Console.ReadLine());
-                if (cevap == sonuc)
-                {
-                    Console.WriteLine("Cevap Doğru");
-                    dsayisi++; //www.yazilimkodlama.com
-                }
-                else
-                {
-                    Console.WriteLine("Cevap Yanlış");
-                    ysayisi++;
-                }
+                sonuc += sayi1;
+            }
 
-            }  //www.yazilimkodlama.com
-            Console.WriteLine();
-            Console.WriteLine("Doğru Cevap Sayısı : {0}   -   Yanlış Cevap Sayısı : {1}", dsayisi, ysayisi);
-            Console.ReadKey();
+            Console.WriteLine("{0} * {1} = {2}", sayi1, sayi2, sonuc);
+            Console.ReadLine();
         }
     }
 }
