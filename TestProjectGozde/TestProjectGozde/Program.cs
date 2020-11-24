@@ -9,19 +9,46 @@ namespace TestProjectGozde
             //kodları hep buraya yazın static void main içine hata verir yoksa
 
 
-            int sayi;
-            Console.Write("Bir sayı giriniz: ");
-            sayi = Convert.ToInt16(Console.ReadLine());
+            int mak = 0;
+            int son = 0;
+            Console.WriteLine("Cümleyi Girin :");
+            Console.WriteLine("==========================================");
+            String metin = Console.ReadLine();
+            metin = metin.ToLower();
+            String karakterler = "0123456789abcdefghijklmnopqrstuvwxyz.?,;";
+            int[] count = new int[karakterler.Length];
+            for (int i = 0; i < metin.Length; i++)
+            {
+                int index = karakterler.IndexOf(metin[i]);
+                if (index < 0)
+                    continue;
+                else
+                {
+                    count[index]++;
+                }
+            }
+            for (int i = 0; i < count.Length; i++)
+            {
+                if (count[i] < 1)
+                    continue;
+                else
+                {
+                    Console.WriteLine(karakterler[i] + " " + count[i]);
+                }
+            }
 
-            if (sayi % 2 == 0) //sayinin 2 ile modunu hesaplıyoruz. mod 0 ise sayı çift olarak kabul edilir.
+            //En fazla bulunan harf sayısı
+            for (int i = 1; i < count.Length; i++)
             {
-                Console.Write(sayi + " sayisi çift sayıdır.");
+                if (mak < count[i])
+                {
+                    mak = count[i];
+                    son = i; //Harf sayısı en fazla olan index numarası
+                }
+
             }
-            else  //sayı sıfır değil de tek ise else kısmı çalışacaktır.
-            {
-                Console.Write(sayi + " sayisi tek sayıdır.");
-            }
-            Console.ReadKey(); //www.yazilimkodlama.com
+            Console.WriteLine("En fazla olan karakter : " + karakterler[son] + ", sayısı " + mak);
+            Console.ReadKey();
 
 
 
