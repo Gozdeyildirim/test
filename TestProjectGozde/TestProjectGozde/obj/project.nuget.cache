@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "7VQIeodJfMrW1fRP/mhFzNMUhdZmu3E5V9V09ZpAmLOLwPJCQeHia8F/+pSv7T/U24D1Z3Gpm2VePNyaAslGwg==",
+  "dgSpecHash": "r/5+iAw5FEL9tFX/rKwnUX4bWipmWgjnnhP363tF5+E2bS7SPnX8Jbqj+P5ntf/78Ok3vwGFp1XP/eNL4/EJCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\AGOKOGLU\\Desktop\\Project\\test\\TestProjectGozde\\TestProjectGozde\\TestProjectGozde.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\AGOKOGLU\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\AGOKOGLU\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
